@@ -35,6 +35,14 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript">
+    const input = document.getElementById('button');
+  
+    function clickAlert() {
+      alert('I was clicked!');
+    }
+  
+    input.addEventListener('click', clickAlert);
+  </script>
 </body>
 </html>
